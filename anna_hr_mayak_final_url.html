@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnNa HR Studio</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f0fdf4;
+      color: #2e3d2f;
+    }
+    header {
+      background: url('https://raw.githubusercontent.com/Zorrita1721/anna-hr-site/main/header-mayak.png') no-repeat center center;
+      background-size: cover;
+      color: #fff;
+      padding: 240px 20px 160px;
+      text-align: center;
+      position: relative;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 0;
+    }
+    header h1, header p, header a {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-family: 'Georgia', serif;
+    }
+    header p {
+      font-size: 1.3em;
+      margin-top: 10px;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin: 40px 0;
+    }
+    .services, .packages, .contact, .about, .advantages, .approach {
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    }
+    .services ul, .advantages ul, .packages ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li, .advantages li, .packages li {
+      padding: 10px 0;
+    }
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      margin-top: 20px;
+      background: #3cb371;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    footer {
+      background: #66a6ff;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a { color: #2b7a78; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnNa HR Studio</h1>
+    <p>Ми не керуємо замість вас — ми світимо, коли темно</p>
+    <a href="#contact" class="button">Записатися на консультацію</a>
+  </header>
+
+  <div class="container">
+    <section class="about">
+      <h2>Про AnNa HR Studio</h2>
+      <p>Ми — незалежна HR-консалтингова студія, яка працює з компаніями, що прагнуть бачити не тільки бізнес-процеси, а й людей, які їх створюють. Наша команда поєднує глибоку психологічну експертизу з управлінською логікою.</p>
+      <p>Наша місія — дати керівникам і командам інструменти для довіри, розвитку й утримання ключових фахівців. Ми працюємо з малим, середнім та великим бізнесом, адаптуючи рішення під ваш контекст.</p>
+    </section>
+
+    <section class="approach">
+      <h2>Наш підхід</h2>
+      <p>Ми не даємо шаблонів. Ми підсвічуємо можливості. Ви — керуєте рухом.</p>
+      <p>Як маяк, що не кричить, але завжди світить. Ми допомагаємо бачити напрям — у людях, у командах, у рішенні складних ситуацій.</p>
+    </section>
+
+    <section class="services">
+      <h2>Послуги</h2>
+      <ul>
+        <li>HR-аудит (рекрутинг, адаптація, супровід)</li>
+        <li>Діагностика персоналу: мотивація, типологія, метапрограми</li>
+        <li>Коучинг для керівників і HR-партнерів</li>
+        <li>Навчальні модулі з підбору, адаптації, лідерства</li>
+        <li>Розробка HR-стратегії розвитку персоналу</li>
+      </ul>
+    </section>
+
+    <section class="packages">
+      <h2>Пакетні рішення</h2>
+      <ul>
+        <li><strong>Start:</strong> HR-аудит + діагностика до 10 осіб — 12 000 грн</li>
+        <li><strong>Optima:</strong> Діагностика + навчання + ІПР — 28 000 грн</li>
+        <li><strong>Pro:</strong> Повний супровід (до 20 осіб) — 45 000 грн</li>
+        <li><strong>Individual:</strong> Коучинг для власника/HR BP — 9 000 грн</li>
+      </ul>
+      <p style="font-size: 0.9em; color: #555;">*Вартість орієнтовна. Уточнюється індивідуально відповідно до розміру компанії.</p>
+    </section>
+
+    <section class="advantages">
+      <h2>Чому обирають AnNa HR Studio?</h2>
+      <ul>
+        <li>Авторські діагностичні інструменти</li>
+        <li>Поєднання глибини психології з управлінською практикою</li>
+        <li>Гарантія конфіденційності</li>
+        <li>Формати: онлайн / офлайн / супровід змін</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Зв'язок</h2>
+      <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+      <p>Telegram / Viber: +38 (XXX) XXX-XX-XX</p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 AnNa HR Studio | Створено з любов’ю до людей і команд</p>
+  </footer>
+</body>
+</html>
